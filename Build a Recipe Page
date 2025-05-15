@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Spaghetti Carbonara</title>
+  </head>
+  <body>
+    <h1>Spaghetti Carbonara</h1>
+    <p>This classic Italian dish is simple, rich, and delicious.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Spaghetti</li>
+      <li>Pancetta</li>
+      <li>Eggs</li>
+      <li>Parmesan cheese</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Boil the pasta.</li>
+      <li>Cook the pancetta.</li>
+      <li>Mix eggs and cheese.</li>
+      <li>Combine everything off the heat.</li>
+    </ol>
+
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A plate of spaghetti carbonara">
+  </body>
+</html>
