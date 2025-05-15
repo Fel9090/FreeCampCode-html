@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inspiring Nature Documentaries</title>
+  </head>
+  <body>
+    <main>
+      <h1>Inspiring Nature Documentaries</h1>
+      <p>Explore the beauty of our planet through these stunning nature documentary clips, showcasing the wonders of wildlife, oceans, and landscapes.</p>
+
+      <section>
+        <h2>Wildlife Wonders</h2>
+        <p>This clip highlights the incredible lives of animals in the African savannah.</p>
+        <iframe
+          src="https://www.youtube.com/embed/3HjCafZpL8U"
+          title="Wildlife Wonders"
+          height="315"
+          width="560"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </section>
+
+      <section>
+        <h2>Ocean Depths</h2>
+        <p>Dive deep into the oceans and discover the hidden creatures of the sea.</p>
+        <iframe
+          src="https://www.youtube.com/embed/9GvKWZzvVgA"
+          title="Ocean Depths"
+          height="315"
+          width="560"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </section>
+
+      <section>
+        <h2>Majestic Landscapes</h2>
+        <p>Travel across the globe to see some of the most breathtaking natural landscapes.</p>
+        <iframe
+          src="https://www.youtube.com/embed/8zjR3XUfpYk"
+          title="Majestic Landscapes"
+          height="315"
+          width="560"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </section>
+    </main>
+  </body>
+</html>
