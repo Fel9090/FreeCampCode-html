@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Web Development Survey</h1>
+    <p id="description">We’d love to hear your thoughts about your experience in web development.</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name:</label>
+      <input id="name" type="text" required placeholder="Enter your full name" /><br><br>
+
+      <label id="email-label" for="email">Email:</label>
+      <input id="email" type="email" required placeholder="Enter your email" /><br><br>
+
+      <label id="number-label" for="number">Years of Experience:</label>
+      <input
+        id="number"
+        type="number"
+        min="0"
+        max="50"
+        placeholder="Enter number of years"
+      /><br><br>
+
+      <label for="dropdown">Which area do you specialize in?</label><br>
+      <select id="dropdown">
+        <option value="frontend">Frontend Development</option>
+        <option value="backend">Backend Development</option>
+      </select><br><br>
+
+      <p>Preferred development environment:</p>
+      <label><input type="radio" name="environment" value="windows" /> Windows</label><br>
+      <label><input type="radio" name="environment" value="mac" /> MacOS</label><br><br>
+
+      <p>What tools do you use? (Check all that apply)</p>
+      <label><input type="checkbox" value="vs-code" /> VS Code</label><br>
+      <label><input type="checkbox" value="git" /> Git</label><br><br>
+
+      <label for="comments">Additional Comments:</label><br>
+      <textarea id="comments" rows="4" cols="40" placeholder="Share your thoughts here..."></textarea><br><br>
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
