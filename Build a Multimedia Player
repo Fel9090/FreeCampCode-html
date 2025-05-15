@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Multimedia Player</title>
+</head>
+<body>
+
+  <h1>Multimedia Showcase</h1>
+
+  <section>
+    <h2>Relaxing Music - Sailing Away</h2>
+    <audio controls aria-label="Relaxing instrumental music">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section>
+    <h2>What is the Map Method?</h2>
+    <video controls width="600" aria-label="Educational video about the map method">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4" type="video/mp4">
+      <track 
+        src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English Subtitles">
+    </video>
+  </section>
+
+  <section>
+    <h2>Transcript</h2>
+    <p>The map method is a powerful way to transform arrays in JavaScript. It allows you to apply a function to every element in the array, returning a new array with the results. This is especially useful when you want to clean, change, or format data efficiently.</p>
+  </section>
+
+</body>
+</html>
